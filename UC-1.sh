@@ -8,4 +8,4 @@ then
 else
    echo "Absent"
 fi
-© 2021 GitHub, Inc.
+
