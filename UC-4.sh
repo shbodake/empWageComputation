@@ -1,16 +1,16 @@
 #!/bin/bash
 
-isFullTime=1;
-isPartTime=2;
+isPartTime=1;
+isFullTime=2;
 empRate=20;
 randomCheck=$((RANDOM%3))
 case $randomCheck in
-   $isFullTime)
-      echo "Fulltime"
-      empHrs=8;;
    $isPartTime)
       echo "Parttime"
-      empHrs=4;;
+      empHrs=8;;
+   $isFullTime)
+      echo "Fulltime"
+      empHrs=9;;
    *)
       echo absent
       empHrs=0;;
