@@ -1,5 +1,4 @@
 #!/bin/bash
-
 isPresent=1;
 randomCheck=$((RANDOM%2))
 if [ $isPresent -eq $randomCheck ];
@@ -8,4 +7,3 @@ then
 else
    echo "Absent"
 fi
-© 2021 GitHub, Inc.
