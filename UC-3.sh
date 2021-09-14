@@ -1,5 +1,5 @@
 
 #! /bin/bash
 isPartTime=1;
-empPartTimeHrs=8;
+empPartTimeHrs=4;
 echo "$empPartTimeHrs is:"
